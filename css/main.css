@@ -14,8 +14,8 @@ body {
 
 /* image and content home page */
 #d-background {
-    height: 70vh;
-    min-height: 280px;
+    height: 48vh !important;
+    min-height: 280px !important;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -24,6 +24,7 @@ body {
     color: white;
     background-size: cover;
     background-position: center;
+    margin-bottom: 10px !important;
 }
 
 .bg-image-1 { background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/bg1.jpg') !important; }
@@ -60,7 +61,7 @@ body {
 /* latest blog posts section */
 .home-blog-section {
     max-width: 1100px;
-    margin: 20px auto;
+    margin: 5px auto 0 auto !important;
     padding: 0 10px;
     text-align: left;
 }
@@ -68,7 +69,8 @@ body {
 .home-blog-section h2 {
     font-size: 2.2rem;
     color: #222222;
-    margin-bottom: 20px;
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
     font-weight: 700;
 }
 
@@ -78,8 +80,8 @@ body {
     flex-wrap: wrap !important;
     justify-content: flex-start !important;
     align-items: flex-start !important;
-    gap: 30px !important;
-    margin-top: 10px;
+    gap: 20px !important;
+    margin-top: 5px;
 }
 
 .home-cards-grid .blog-card {
@@ -161,7 +163,8 @@ body {
     gap: 30px !important;
     width: 100% !important;
     max-width: 1200px !important;
-    margin: 30px auto 0 auto !important;
+    margin: 5px auto 0 auto !important;
+    padding-top: 5px !important;
 }
 
 .thoughtpad-vertical-card {
@@ -293,3 +296,95 @@ body {
     letter-spacing: -0.5px !important;
 }
 
+/* login and register forms*/
+.form-box {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: rgb(140, 212, 241);
+}
+
+.form-d {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 450px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.form-d h1 {
+    color: #333333;
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+}
+
+.form-d p {
+    color: #666666;
+    margin-bottom: 35px;
+    font-size: 0.95rem;
+}
+
+.input-details {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-details label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444444;
+    font-size: 0.9rem;
+}
+
+.input-details input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.input-details input:focus {
+    border-color: darkblue;
+    outline: none;
+}
+
+.bton-submit {
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 10 rgba(0,0,255,0.2);
+    margin-top: 10px;
+}
+
+.bton-submit:hover {
+    background-color: blue;
+}
+
+.end-form {
+    margin-top: 20px !important;
+    font-size: 0.9rem;
+}
+
+.end-form a {
+    color: darkblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.end-form a:hover {
+    text-decoration: underline;
+}
