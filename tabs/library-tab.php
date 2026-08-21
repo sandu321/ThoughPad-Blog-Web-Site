@@ -37,7 +37,7 @@ $current_sub_tab = isset($_GET['sub']) ? $_GET['sub'] : 'lists';
     <a href="dashboard.php?sub=comments" class="sub-tab-anchor <?php echo ($current_sub_tab === 'comments') ? 'active-sub-tab' : ''; ?>">Comments</a>
 </div>
 
-<!-- 1. YOUR LISTS -->
+<!-- 1.your list -->
 <?php if ($current_sub_tab === 'lists'): ?>
 <div class="blog-cards-grid">
     <?php if (mysqli_num_rows($my_posts) > 0): ?>
@@ -90,7 +90,7 @@ $current_sub_tab = isset($_GET['sub']) ? $_GET['sub'] : 'lists';
     <?php endif; ?>
 </div>
 <?php endif; ?>
-<!-- 2. SAVED LISTS -->
+<!-- 2.saved-->
 <?php if ($current_sub_tab === 'saved'): ?>
 <div class="blog-cards-grid">
     <?php if (mysqli_num_rows($saved_posts) > 0): ?>
@@ -120,7 +120,7 @@ $current_sub_tab = isset($_GET['sub']) ? $_GET['sub'] : 'lists';
 </div>
 <?php endif; ?>
 
-<!-- 3. FEATURED PINNED -->
+<!-- 3.featured -->
 <?php if ($current_sub_tab === 'featured'): ?>
 <div class="blog-cards-grid">
     <?php if (mysqli_num_rows($pinned_posts) > 0): ?>
@@ -146,7 +146,7 @@ $current_sub_tab = isset($_GET['sub']) ? $_GET['sub'] : 'lists';
 </div>
 <?php endif; ?>
 
-<!-- 4. COMMENTS RESPONSES -->
+<!-- 4.comments -->
 <?php if ($current_sub_tab === 'comments'): ?>
 <div class="dashboard-comments-list">
     <?php if (mysqli_num_rows($my_responses) > 0): ?>

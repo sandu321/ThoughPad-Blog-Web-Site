@@ -593,3 +593,129 @@
     justify-content: flex-start !important;
     text-align: left !important;
 }
+
+/*stats tab*/
+.stats-overview-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.stats-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    border: 1px solid #eeeeee;
+    min-width: 220px;
+    flex: 1;
+}
+
+.stats-card h3 {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.stats-card p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0000FF;
+}
+
+.post-breakdown-section {
+    margin-top: 40px !important;
+    background: #ffffff !important;
+    padding: 25px !important;
+    border-radius: 8px !important;
+    border: 1px solid #eeeeee !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02) !important;
+}
+
+.breakdown-main-title {
+    font-size: 1.2rem !important;
+    color: #242424 !important;
+    margin-bottom: 20px !important;
+    font-weight: 700 !important;
+    text-align: left !important;
+}
+
+.stats-table-wrapper {
+    overflow-x: auto !important;
+    width: 100% !important;
+}
+
+.stats-insights-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    text-align: left !important;
+    font-size: 0.95rem !important;
+}
+
+.table-header-row {
+    border-bottom: 2px solid #f1f3f5 !important;
+    color: #757575 !important;
+}
+
+.table-header-row th {
+    padding: 12px 10px !important;
+    font-weight: 600 !important;
+}
+
+.th-title { 
+    text-align: left !important; 
+}
+
+.th-stat-center {
+    text-align: center !important;
+     width: 110px !important; 
+}
+
+.th-date-right { 
+    text-align: right !important;
+     width: 140px !important; 
+}
+
+.table-body-data-row {
+    border-bottom: 1px solid #f8f9fa !important;
+    color: #242424 !important;
+    transition: background 0.2s ease !important;
+}
+
+.table-body-data-row:hover {
+    background: #fdfdfd !important;
+}
+
+.table-body-data-row td {
+    padding: 15px 10px !important;
+    vertical-align: middle !important;
+}
+
+.td-title-cell {
+    font-weight: 500 !important;
+    max-width: 300px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    text-align: left !important;
+}
+
+.td-stat-cell-center {
+    text-align: center !important;
+    font-weight: 600 !important;
+    color: #555555 !important;
+}
+
+.td-date-cell-right {
+    text-align: right !important;
+    color: #757575 !important;
+    font-size: 0.88rem !important;
+}
+
+.table-empty-row-text {
+    padding: 30px 10px !important;
+    text-align: center !important;
+    color: #999999 !important;
+    font-style: italic !important;
+}

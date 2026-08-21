@@ -46,7 +46,7 @@ $current_profile_tab = isset($_GET['tab']) ? $_GET['tab'] : 'home';
             <a href="dashboard.php?tab=about" class="super-tab-link <?php echo ($current_profile_tab === 'about') ? 'active-profile-tab' : ''; ?>">About</a>
         </div>
 
-        <!-- HOME TAB PANEL -->
+        <!-- home -->
         <?php if ($current_profile_tab === 'home'): ?>
         <div class="p-php-panel">
             <div class="blog-cards-grid">
@@ -70,7 +70,7 @@ $current_profile_tab = isset($_GET['tab']) ? $_GET['tab'] : 'home';
             </div>
         </div>
         <?php endif; ?>
-        <!-- FOLLOWERS TAB PANEL -->
+        <!-- followers -->
         <?php if ($current_profile_tab === 'followers'): ?>
         <div class="p-php-panel">
             <div class="thoughtpad-users-list">
@@ -106,7 +106,7 @@ $current_profile_tab = isset($_GET['tab']) ? $_GET['tab'] : 'home';
         </div>
         <?php endif; ?>
 
-        <!-- ABOUT TAB PANEL -->
+        <!-- about -->
         <?php if ($current_profile_tab === 'about'): ?>
         <div class="p-php-panel">
             <div class="profile-about-text-card">
@@ -116,7 +116,7 @@ $current_profile_tab = isset($_GET['tab']) ? $_GET['tab'] : 'home';
         <?php endif; ?>
     </div>
 
-    <!--STICKY PROFILE RIGHT COLUMN -->
+    <!--profile column -->
     <div class="profile-right-column">
         <div class="sticky-profile-card">
             <img src="<?php echo htmlspecialchars($profile_pic); ?>" alt="Profile Picture" class="thoughtpad-avatar-large">
