@@ -719,3 +719,91 @@
     color: #999999 !important;
     font-style: italic !important;
 }
+
+/*settings tab*/
+.settings-box-panel {
+    max-width: 500px !important;
+    width: 100% !important;
+    text-align: left !important;
+    margin-top: 20px !important;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+}
+
+.settings-display-avatar {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    border: 2px solid #0000FF !important; 
+    margin-bottom: 15px !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05) !important;
+}
+
+.settings-file-uploader {
+    font-size: 0.9rem !important;
+    color: #757575 !important;
+}
+
+.blog-group {
+    margin-bottom: 25px !important;
+    width: 100% !important;
+    text-align: left !important;
+}
+
+.blog-group label {
+    display: block !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    color: #334155 !important;
+    margin-bottom: 8px !important;
+}
+
+.blog-group input[type="text"] {
+    width: 100% !important;
+    padding: 12px 15px !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 6px !important;
+    font-size: 1rem !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+}
+
+.blog-group input[type="text"]:focus {
+    border-color: #0000FF !important;
+}
+
+.settings-input-field,
+.settings-textarea-field {
+    width: 100% !important;
+    padding: 14px 15px !important;
+    border: 1px solid #cccccc !important;
+    border-radius: 6px !important;
+    font-size: 1.02rem !important;
+    font-family: inherit !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+    background: #ffffff !important;
+    transition: border-color 0.2s ease !important;
+    margin-top: 6px !important;
+    margin-bottom: 15px !important;
+}
+
+.btn-blog-submit {
+    background: #0000FF !important;
+    color: #ffffff !important;
+    border: 1px solid #0000FF !important;
+    padding: 12px 28px !important;
+    border-radius: 25px !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    cursor: pointer !important;
+    transition: opacity 0.2s !important;
+}
+
+.btn-blog-submit:hover {
+    opacity: 0.9 !important;
+}
