@@ -394,3 +394,202 @@
     color: #999;
 }
 
+/*profile tab*/
+.thoughtpad-profile-container {
+    display: flex !important;
+    gap: 50px !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    max-width: 1000px !important;
+    margin: 0 auto !important;
+}
+
+.profile-left-column {
+    flex: 2 !important;
+}
+
+.super-profile-navbar {
+    display: flex !important;
+    gap: 35px !important;
+    border-bottom: 1px solid #f2f2f2 !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 25px !important;
+}
+
+.super-tab-link {
+    text-decoration: none !important;
+    font-size: 0.95rem !important;
+    font-weight: 500 !important;
+    padding-bottom: 11px !important;
+    color: #757575 !important;
+    transition: all 0.2s ease !important;
+}
+
+.super-tab-link.active-profile-tab {
+    color: #242424 !important;
+    border-bottom: 2px solid #242424 !important;
+    font-weight: 600 !important;
+}
+
+.thoughtpad-users-list {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+}
+
+.thoughtpad-user-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background: #f8f9fa !important;
+    padding: 12px !important;
+    border-radius: 8px !important;
+    margin-bottom: 12px !important;
+}
+
+.user-info-left-group {
+    display: flex !important;
+    align-items: center !important;
+    flex: 1 !important;
+    min-width: 0 !important;
+}
+
+.thoughtpad-avatar-small {
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    flex-shrink: 0 !important;
+}
+
+.thoughtpad-user-name {
+    margin-left: 12px !important;
+    font-size: 0.95rem !important;
+    font-weight: 500 !important;
+    color: #242424 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    text-align: left !important;
+}
+
+.profile-user-link-anchor {
+    text-decoration: none !important;
+    color: #242424 !important;
+    font-weight: 600 !important;
+}
+
+.user-actions-right-group {
+    display: flex !important;
+    gap: 10px !important;
+    flex-shrink: 0 !important;
+}
+
+.btn-profile-follow-action,
+.btn-profile-unfollow-action,
+.btn-profile-remove-action {
+    text-decoration: none !important;
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+    padding: 5px 14px !important;
+    border-radius: 15px !important;
+    display: inline-block !important;
+    transition: all 0.2s !important;
+}
+
+.btn-profile-follow-action {
+    color: #fff !important;
+    background: #1a8917 !important;
+    border: 1px solid #1a8917 !important;
+}
+
+.btn-profile-unfollow-action {
+    color: #d32f2f !important;
+    border: 1px solid #ffccd2 !important;
+    background: #fff0f0 !important;
+}
+
+.btn-profile-remove-action {
+    color: #555555 !important;
+    border: 1px solid #cccccc !important;
+    background: #ffffff !important;
+}
+
+.profile-about-text-card {
+    background: #ffffff !important;
+    padding: 30px !important;
+    border-radius: 8px !important;
+    line-height: 1.8 !important;
+    font-size: 1.1rem !important;
+    color: #242424 !important;
+    border: 1px solid #f2f2f2 !important;
+    text-align: left !important;
+}
+
+.profile-right-column {
+    flex: 1 !important;
+    position: sticky !important;
+    top: 100px !important;
+}
+
+.sticky-profile-card {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; 
+    text-align: center !important;  
+    width: 100% !important;
+}
+
+.thoughtpad-avatar-large {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    margin: 0 auto 15px auto !important; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05) !important;
+}
+
+.sidebar-user-display-name {
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    color: #242424 !important;
+    margin-bottom: 25px !important;
+    width: 100% !important;
+}
+
+.thoughtpad-following-section {
+    margin-top: 10px !important;
+    width: 100% !important;
+    text-align: left !important; 
+}
+
+.thoughtpad-following-section h3 {
+    font-size: 0.9rem !important;
+    text-transform: uppercase !important;
+    color: #757575 !important;
+    letter-spacing: 0.8px !important;
+    margin-bottom: 15px !important;
+    text-align: left !important;
+    display: inline-block !important;
+    width: 100% !important;
+}
+
+.thoughtpad-following-section .thoughtpad-user-row {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    background: #ffffff !important; 
+    border: 1px solid #f1f3f5 !important;
+    padding: 10px 12px !important;
+    border-radius: 8px !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.thoughtpad-following-section .user-info-left-group {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+}
