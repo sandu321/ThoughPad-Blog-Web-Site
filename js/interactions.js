@@ -86,4 +86,11 @@ alert('Registration successful! Please login to your ThoughtPad account. ');
 }
 });
 
-
+//update-settings.php
+/*used for display alert when settings are successfully updated*/
+document.addEventListener("DOMContentLoaded", function() {
+if (window.location.href.includes('dashboard.php') && 
+document.referrer.includes('update-settings.php')) {
+alert('Settings updated successfully!');
+}
+});
