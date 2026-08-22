@@ -94,3 +94,11 @@ document.referrer.includes('update-settings.php')) {
 alert('Settings updated successfully!');
 }
 });
+
+//blog-process.php
+/*used for display alert when blog is successfully submitted*/
+document.addEventListener("DOMContentLoaded", function() {
+if (window.location.href.includes('dashboard.php') && document.referrer.includes('blog-process.php')) {
+alert('Blog published successfully! ');
+}
+});
