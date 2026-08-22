@@ -70,6 +70,7 @@ while($row = mysqli_fetch_assoc($result)) {
                     <?php foreach($detailed_posts as $post): ?>
                         <tr class="table-body-data-row">
                             <td class="td-title-cell">
+                                <!-- 💡 බ්ලොග් එක කියවන්න ලින්ක් එක දාලා, කැත යට ඉර නැති වෙන්න .card-title-anchor ක්ලාස් එක දුන්නා -->
                                 <a href="view-blog.php?id=<?php echo $post['id']; ?>" class="card-title-anchor">
                                     <?php echo htmlspecialchars($post['title']); ?>
                                 </a>

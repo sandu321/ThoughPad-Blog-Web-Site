@@ -138,6 +138,29 @@
     border: 1px solid #e2e8f0 !important;
 }
 
+.dash-comment-time {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.sub-tab-anchor {
+    text-decoration: none !important;
+    font-size: 0.95rem !important;
+    padding-bottom: 11px !important;
+    color: #242424 !important;
+    transition: all 0.2s ease !important;
+}
+
+.sub-tab-anchor.active-sub-tab {
+    color: #0000FF !important;
+    border-bottom: 2px solid #0000FF !important;
+    font-weight: 500 !important;
+}
+
+.sub-tab-anchor:hover:not(.active-sub-tab) {
+    color: #242424 !important;
+}
+
 /*library tab*/
 .library-sub-toolbar-wrapper {
     display: flex !important;
