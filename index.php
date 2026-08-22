@@ -94,6 +94,19 @@ $result = mysqli_query($conn, $sql_query);
         </div>
     </div>
 
+    <footer class="thoughtpad-footer">
+    <div class="footer-container">
+        <div class="footer-brand">ThoughtPad</div>
+        <div class="footer-links">
+            <a href="index.php">Home</a>
+            <a href="register.php">Register</a>
+            <a href="login.php">Login</a>
+        </div>
+        <div class="footer-copyright">&copy; <?php echo date('Y'); ?> ThoughtPad. All rights reserved.</div>
+    </div>
+    </footer>
+
+
 </body>
 </html>
 
