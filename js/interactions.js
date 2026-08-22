@@ -102,3 +102,11 @@ if (window.location.href.includes('dashboard.php') && document.referrer.includes
 alert('Blog published successfully! ');
 }
 });
+
+//edit-process.php
+/*used for display alert when blog is successfully updated*/
+document.addEventListener("DOMContentLoaded", function() {
+if (window.location.href.includes('dashboard.php') && document.referrer.includes('edit-process.php')) {
+alert('Blog updated successfully! ');
+}
+});
