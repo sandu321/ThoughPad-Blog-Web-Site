@@ -90,7 +90,6 @@ if (!isset($_SESSION['user_id'])) {
                             <button type="button" onclick="triggerRichUpload('audio')" class="ribbon-media-btn" title="Insert Audio">🎵 Audio</button>
                         </div>
 
-                        <!-- 💡 2. BOTTOM ROW: TEXT STYLING STARTING PURELY FROM BOLD (යට පේළිය Bold එකෙන් පිරිසිදුව පටන් ගනී) -->
                         <div class="ribbon-row-bottom">
                             
                             <!-- Basic Formatting Tools -->
