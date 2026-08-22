@@ -42,7 +42,7 @@ $result = mysqli_query($conn, $sql_query);
 
     <?php include 'navbar.php'; ?>
 
-    <div id="d-background" class="bg-image-1 thoughtpad-hero-boost">
+    <div id="d-background" class="bg-image-1 <?php echo isset($_SESSION['user_id']) ? 'user-logged-in' : ''; ?>">
         <div class="d-content">
             <h1>Embrace the journey, live your truth</h1>
             <p>Documenting the beauty of everyday life and personal growth.</p>
@@ -54,7 +54,7 @@ $result = mysqli_query($conn, $sql_query);
         </div>
     </div>
         <div class="home-blog-section" id="search-results">
-        <h2><?php echo !empty($search_query) ? "Search Results for '" . htmlspecialchars($search_query) . "'" : "Latest Stories"; ?></h2>
+        <h1><?php echo !empty($search_query) ? "Search Results for '" . htmlspecialchars($search_query) . "'" : "Latest Stories"; ?></h1>
         
         <div class="thoughtpad-home-grid">
             <?php if (mysqli_num_rows($result) > 0): ?>

@@ -15,7 +15,7 @@ body {
 /* image and content home page */
 #d-background {
     height: 48vh !important;
-    min-height: 280px !important;
+    min-height: 200px !important;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -388,3 +388,23 @@ body {
 .end-form a:hover {
     text-decoration: underline;
 }
+
+#d-background {
+    height: 100vh !important;
+    min-height: 100vh !important;
+    margin-bottom: 0 !important;
+}
+
+.bg-image-1 {
+    height: 100vh !important;
+}
+
+#d-background.user-logged-in {
+    height: 48vh !important;
+    min-height: 200px !important;
+}
+
+.bg-image-1.user-logged-in {
+    height: 48vh !important;
+}
+
