@@ -21,12 +21,10 @@
 .blog-box h2,
 .blog-box p:first-of-type {
     text-align: center !important;
-
 }
 
 .blog-box p:first-of-type {
     margin-bottom: 10px !important;
-    
 }
 
 .ribbon-select {
@@ -172,6 +170,32 @@
     font-family: attr(face) !important;
 }
 
+#rich-editor img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 15px auto !important;
+    border-radius: 6px !important;
+}
+
+#rich-editor video {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 15px auto !important;
+    border-radius: 6px !important;
+}
+
+#rich-editor audio {
+    width: 100% !important;
+    max-width: 100% !important;
+    display: block !important;
+    margin: 15px auto !important;
+}
+
+
 /*view blog*/
 .blog-viewer-split-layout {
     display: flex !important;
@@ -185,6 +209,7 @@
 }
 
 .blog-content-left-pane {
+    border-style: content-box !important;
     flex: 2 !important;
     min-width: 0 !important;
     background: #ffffff !important;
@@ -240,7 +265,6 @@
     color: #0000ff !important;
     font-weight: 600 !important;
     text-decoration: none !important; 
-    cursor: pointer !important;
     border-bottom: none !important;
     display: inline-block !important;
 }
@@ -300,13 +324,38 @@
     letter-spacing: -0.03px !important;
 }
 
-.post-view-content img {
+.post-view-content img,
+.single-post-article img,
+.view-blog-master-container img,
+.editor-uploaded-image {
     max-width: 100% !important;
+    width: 100% !important;
     height: auto !important;
     display: block !important;
     margin: 35px auto !important; 
     border-radius: 10px !important; 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02) !important;
+}
+
+.post-view-content video,
+.single-post-article video,
+.view-blog-master-container video,
+.editor-uploaded-video {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 35px auto !important;
+    border-radius: 10px !important;
+}
+
+.post-view-content audio,
+.single-post-article audio,
+.editor-uploaded-audio {
+    max-width: 100% !important;
+    width: 100% !important;
+    display: block !important;
+    margin: 25px auto !important;
 }
 
 .post-view-content p {
