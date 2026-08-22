@@ -541,3 +541,24 @@
     user-select: none !important;
 }
 
+/*user profile*/
+.super-profile-navbar .menu-item.active .id-home-lbl,
+.super-profile-navbar .super-tab-link.active-profile-tab .id-home-lbl {
+    color: #242424 !important;
+    border-bottom: 2px solid #242424 !important;
+    font-weight: 600 !important;
+}
+
+.super-profile-navbar .menu-item.active .id-followers-lbl,
+.super-profile-navbar .super-tab-link.active-profile-tab .id-followers-lbl {
+    color: #242424 !important;
+    border-bottom: 2px solid #242424 !important;
+    font-weight: 600 !important;
+}
+
+.super-profile-navbar .menu-item.active .id-about-lbl,
+.super-profile-navbar .super-tab-link.active-profile-tab .id-about-lbl {
+    color: #242424 !important;
+    border-bottom: 2px solid #242424 !important;
+    font-weight: 600 !important;
+}
