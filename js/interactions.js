@@ -110,3 +110,28 @@ if (window.location.href.includes('dashboard.php') && document.referrer.includes
 alert('Blog updated successfully! ');
 }
 });
+
+//delete-blog.php
+/*used for display alert when blog is successfully deleted*/
+document.addEventListener("DOMContentLoaded", function() {
+if (window.location.href.includes('dashboard.php') && 
+document.referrer.includes('delete-blog.php')) {
+alert('Blog deleted successfully! ');
+}
+});
+
+//view-blog.php
+/*view blog page with view sidebar*/
+function openInsightsSidebar() {
+const sidebar = document.getElementById('sidebar-viewers');
+const overlay = document.getElementById('sidebar-overlay');
+if (sidebar) sidebar.classList.add('open-sidebar');
+if (overlay) overlay.style.display = 'block';
+}
+
+function closeInsightsSidebar() {
+const sidebar = document.getElementById('sidebar-viewers');
+const overlay = document.getElementById('sidebar-overlay');
+if (sidebar) sidebar.classList.remove('open-sidebar');
+if (overlay) overlay.style.display = 'none';
+}
